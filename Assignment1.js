@@ -20,6 +20,7 @@ const prompt = require("prompt-sync")();
 const arg = prompt("Enter the marks? "); 
 //arg = 99
 switch(true){
+    
     case arg > 90:
         console.log("Grade A");
         break;
